@@ -13,9 +13,9 @@ also im checking status code 200 for validation, or any error status code of res
 
 
 ### Exam 3 - Get drone image
-in this test I want to check the drone image from the drone ID
-so I use the drone ID with the function get_drone_image from api_drones.py.
-The address suppose to be: https://interviews-api.beefreeagro.com/api/v1/drones/M3T/image
+In this test, I want to check the drone image using the drone ID. 
+To do this, I use the drone ID with the get_drone_image function from api_drones.py to get the data of the specific drone. 
+Additionally, I want to validate that the value of the "Content-Type" header, which holds the type of the content, indicates that it is an image type.
 
 
 ## How to run 
